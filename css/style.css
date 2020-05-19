@@ -6,12 +6,37 @@
 
 #container {
     width: 950px;
-    background-color: red;
+    background-color: silver;
     margin: 0px auto;
 
 }
 
-div {
-    background-color: red;
+#header {
+    min-height: 150px;
+    background-color: green;
 }
 
+#navigation {
+    min-height: 400px;
+    width: 250px;
+    background-color: indianred;
+}
+
+#main-contents {
+    min-height: 400px;
+    width: 695px;
+    background-color: gold;
+}
+
+.sub-contents {
+    display: inline-block;
+    min-height: 200px;
+    width: 210px;
+    background-color: crimson;
+}
+
+#ad-content {
+    min-height: 120px;
+    width: 660px;
+    background-color: darkmagenta;
+}
