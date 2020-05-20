@@ -5,38 +5,50 @@
 }
 
 #container {
-    width: 950px;
+    width: 960px;
+    height: auto;
+    overflow: hidden;
     background-color: silver;
     margin: 0px auto;
+    box-sizing: border-box;
 
 }
 
 #header {
     min-height: 150px;
     background-color: green;
+    margin: 10px;
 }
 
 #navigation {
-    min-height: 400px;
-    width: 250px;
-    background-color: indianred;
+    min-height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: blue;
 }
 
 #main-contents {
     min-height: 400px;
-    width: 695px;
-    background-color: gold;
+    width: 700px;
+    background-color:red;
+    margin: 10px;
+    position: relative;
+    float: right;
 }
-
+#navigation, #main-contents {
+    display: inline-block;
+}
 .sub-contents {
     display: inline-block;
     min-height: 200px;
     width: 210px;
-    background-color: crimson;
+    margin: 10px;
+    background-color: yellow;
 }
 
 #ad-content {
     min-height: 120px;
-    width: 660px;
+    width: 670px;
+    margin: 10px;
     background-color: darkmagenta;
 }
